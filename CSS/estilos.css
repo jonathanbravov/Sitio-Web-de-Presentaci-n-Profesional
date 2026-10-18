@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f6ff;
+    display: flex;       /* Divide la página en dos columnas */
+    gap: 30px;           /* Espacio de separación entre la barra lateral y el contenido */
+    padding: 20px;
+}
+
+/* Estilo para la barra lateral izquierda */
+.barra_izquierda {
+    background-color: #dceaff;
+    color: #163d78;
+    width: 320px;        /* Ancho fijo para la columna izquierda */
+    padding: 30px;
+    border-radius: 20px;
+    flex-shrink: 0;      /* Evita que la barra lateral se encoja */
+}
+
+#ocupacion {
+    color: #2d62ac;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #fcfdfe;
+}
+
+#nombre {
+    text-align: center;
+}
+
+
+.subdatos{
+    margin-left: 28px;
+    margin-top: 2px;
+}
+
+.datos {
+    color: #163d78;
+    margin: 0 ;
+}
+
+#Enlaces {
+    background-color: #a7c5ef;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+/* Contenedor derecho */
+main {
+    flex: 1;             /* Ocupa todo el espacio restante a la derecha */
+    max-width: 1000px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: #174b91;
+    border-bottom: 2px solid #c5dcff;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #3973b9;
+}
+
+.barra_izquierda img {
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid #d5e5ff;
+    display: block;
+    margin: auto;      /* Centra la foto de perfil */
+}
+
+
+.datos img,h2 img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;       /* Evita que salte de línea */
+    vertical-align: middle;     /* Lo alinea perfectamente con el texto */
+}
+
+a {
+    color: #163d78;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: #526b8d;
+    padding: 15px;
+}
